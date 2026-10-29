@@ -1,0 +1,149 @@
+[0/1] Planning build
+Building for debugging...
+[0/6] Write swift-version--58304C5D6DBC2206.txt
+Build complete! (0.20s)
+Test Suite 'All tests' started at 2026-10-29 14:02:28.636.
+Test Suite 'PracticeRecorderPackageTests.xctest' started at 2026-10-29 14:02:28.636.
+Test Suite 'AVSynchronizationTests' started at 2026-10-29 14:02:28.637.
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testAutomaticModeIgnoresExistingManualCorrection]' started.
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testAutomaticModeIgnoresExistingManualCorrection]' passed (0.001 seconds).
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testManualCorrectionClampsBeforeQuantizingEvenExtremeIntegers]' started.
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testManualCorrectionClampsBeforeQuantizingEvenExtremeIntegers]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testManualCorrectionRetainsSignAndUsesTenMillisecondSteps]' started.
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testManualCorrectionRetainsSignAndUsesTenMillisecondSteps]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testModeSurvivesSettingsSerialization]' started.
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testModeSurvivesSettingsSerialization]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testSwitchingModesKeepsManualCorrectionAvailable]' started.
+Test Case '-[PracticeRecorderTests.AVSynchronizationTests testSwitchingModesKeepsManualCorrectionAvailable]' passed (0.000 seconds).
+Test Suite 'AVSynchronizationTests' passed at 2026-10-29 14:02:28.639.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'AudioExtractionTests' started at 2026-10-29 14:02:28.639.
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testInvalidIndicesUnsupportedRateAndSilence]' started.
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testInvalidIndicesUnsupportedRateAndSilence]' passed (0.015 seconds).
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testNativePackingTransitionIsEquivalentButSignalChangesAreNot]' started.
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testNativePackingTransitionIsEquivalentButSignalChangesAreNot]' passed (0.001 seconds).
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testOwnedOutputSurvivesInputReleaseAndStereoUtility]' started.
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testOwnedOutputSurvivesInputReleaseAndStereoUtility]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testPackedIntegerAndFloatFormatsBothEndian]' started.
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testPackedIntegerAndFloatFormatsBothEndian]' passed (0.004 seconds).
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testSignedNegativePCMAndUnsupportedEightBit]' started.
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testSignedNegativePCMAndUnsupportedEightBit]' passed (0.001 seconds).
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testTwentyChannelsArbitraryPairAndSwapAcrossLayoutsAndRates]' started.
+Test Case '-[PracticeRecorderTests.AudioExtractionTests testTwentyChannelsArbitraryPairAndSwapAcrossLayoutsAndRates]' passed (0.001 seconds).
+Test Suite 'AudioExtractionTests' passed at 2026-10-29 14:02:28.661.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.022 (0.023) seconds
+Test Suite 'CaptureTests' started at 2026-10-29 14:02:28.661.
+Test Case '-[PracticeRecorderTests.CaptureTests testHardwareCaptureSelectedRME1112]' started.
+Test Case '-[PracticeRecorderTests.CaptureTests testHardwareCaptureSelectedRME1112]' passed (0.765 seconds).
+Test Case '-[PracticeRecorderTests.CaptureTests testHardwareReconfigureRejectsOldOutputCallbacks]' started.
+Test Case '-[PracticeRecorderTests.CaptureTests testHardwareReconfigureRejectsOldOutputCallbacks]' passed (4.603 seconds).
+Test Case '-[PracticeRecorderTests.CaptureTests testMissingCameraDoesNotFallback]' started.
+Test Case '-[PracticeRecorderTests.CaptureTests testMissingCameraDoesNotFallback]' passed (0.016 seconds).
+Test Suite 'CaptureTests' passed at 2026-10-29 14:02:34.045.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 5.384 (5.384) seconds
+Test Suite 'ContractTests' started at 2026-10-29 14:02:34.045.
+Test Case '-[PracticeRecorderTests.ContractTests testFixedLimit]' started.
+Test Case '-[PracticeRecorderTests.ContractTests testFixedLimit]' passed (0.000 seconds).
+Test Suite 'ContractTests' passed at 2026-10-29 14:02:34.046.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'FileNamingTests' started at 2026-10-29 14:02:34.046.
+Test Case '-[PracticeRecorderTests.FileNamingTests testAssetTimingValidationRejectsMissingTracksAndInvalidPresentationRanges]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testAssetTimingValidationRejectsMissingTracksAndInvalidPresentationRanges]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testCollisionRetriesWithoutOverwritingExistingFile]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testCollisionRetriesWithoutOverwritingExistingFile]' passed (0.005 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testEveryInstrumentAndRoundedActualDuration]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testEveryInstrumentAndRoundedActualDuration]' passed (0.002 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testFailedRenamePreservesPartialAndExistingFile]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testFailedRenamePreservesPartialAndExistingFile]' passed (0.016 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testFinalizationSuccessBeforeTimeoutPublishesExactlyOnce]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testFinalizationSuccessBeforeTimeoutPublishesExactlyOnce]' passed (0.164 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testFinalizationTimeoutReturnsBeforeLateValidationAndDoesNotRename]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testFinalizationTimeoutReturnsBeforeLateValidationAndDoesNotRename]' passed (0.529 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testIDsCannotInjectPathComponentsAndInterruptedIsExplicit]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testIDsCannotInjectPathComponentsAndInterruptedIsExplicit]' passed (0.001 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testInterruptedPublishNeverUsesNormalName]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testInterruptedPublishNeverUsesNormalName]' passed (0.003 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testInvalidMediaRemainsPartialWithNoFinalName]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testInvalidMediaRemainsPartialWithNoFinalName]' passed (0.010 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testPreflightLeavesNoProbeFiles]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testPreflightLeavesNoProbeFiles]' passed (0.001 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testPreflightRejectsFileAsDirectoryWithoutDeletingIt]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testPreflightRejectsFileAsDirectoryWithoutDeletingIt]' passed (0.001 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testPublicationUsesCapturedStartTimeZone]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testPublicationUsesCapturedStartTimeZone]' passed (0.004 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testRoundingAndLimitAreFixed]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testRoundingAndLimitAreFixed]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testSixtyFPSAllowsOneAACFrameButRejectsLargerAssetOrTrackOverrun]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testSixtyFPSAllowsOneAACFrameButRejectsLargerAssetOrTrackOverrun]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testStartDateOwnsFolderAcrossMonthAndYearBoundary]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testStartDateOwnsFolderAcrossMonthAndYearBoundary]' passed (0.001 seconds).
+Test Case '-[PracticeRecorderTests.FileNamingTests testThirtyAndFractionalFPSUseTheirActualVideoFrameBoundary]' started.
+Test Case '-[PracticeRecorderTests.FileNamingTests testThirtyAndFractionalFPSUseTheirActualVideoFrameBoundary]' passed (0.000 seconds).
+Test Suite 'FileNamingTests' passed at 2026-10-29 14:02:34.783.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 0.736 (0.737) seconds
+Test Suite 'LifecycleTests' started at 2026-10-29 14:02:34.783.
+Test Case '-[PracticeRecorderTests.LifecycleTests testFakeMonotonicTimeAndStaleTimer]' started.
+Test Case '-[PracticeRecorderTests.LifecycleTests testFakeMonotonicTimeAndStaleTimer]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.LifecycleTests testRapidStartArmingStopAndSavingRestart]' started.
+Test Case '-[PracticeRecorderTests.LifecycleTests testRapidStartArmingStopAndSavingRestart]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.LifecycleTests testStopRacesAndStaleTake]' started.
+Test Case '-[PracticeRecorderTests.LifecycleTests testStopRacesAndStaleTake]' passed (0.000 seconds).
+Test Suite 'LifecycleTests' passed at 2026-10-29 14:02:34.784.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'SettingsMigrationTests' started at 2026-10-29 14:02:34.784.
+Test Case '-[PracticeRecorderAppTests.SettingsMigrationTests testLegacySettingsKeepCameraRMEChannelsAndManualValue]' started.
+Test Case '-[PracticeRecorderAppTests.SettingsMigrationTests testLegacySettingsKeepCameraRMEChannelsAndManualValue]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderAppTests.SettingsMigrationTests testNewModePersistsWithoutDestroyingManualCorrection]' started.
+Test Case '-[PracticeRecorderAppTests.SettingsMigrationTests testNewModePersistsWithoutDestroyingManualCorrection]' passed (0.000 seconds).
+Test Suite 'SettingsMigrationTests' passed at 2026-10-29 14:02:34.785.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'TimingTests' started at 2026-10-29 14:02:34.785.
+Test Case '-[PracticeRecorderTests.TimingTests testActualPCMTrimmingPreservesSamplesAndShiftedPTS]' started.
+Test Case '-[PracticeRecorderTests.TimingTests testActualPCMTrimmingPreservesSamplesAndShiftedPTS]' passed (0.003 seconds).
+Test Case '-[PracticeRecorderTests.TimingTests testBoundaryTrimAtBothRatesAndOffset]' started.
+Test Case '-[PracticeRecorderTests.TimingTests testBoundaryTrimAtBothRatesAndOffset]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.TimingTests testFrameDurationsAndExactLimit]' started.
+Test Case '-[PracticeRecorderTests.TimingTests testFrameDurationsAndExactLimit]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.TimingTests testNegativeOffsetExcludesPostLimitCaptureAudio]' started.
+Test Case '-[PracticeRecorderTests.TimingTests testNegativeOffsetExcludesPostLimitCaptureAudio]' passed (0.004 seconds).
+Test Case '-[PracticeRecorderTests.TimingTests testOffsetSignAndBeginningTrim]' started.
+Test Case '-[PracticeRecorderTests.TimingTests testOffsetSignAndBeginningTrim]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.TimingTests testOneTickEarlierInputRequiresOneMoreTrimmedFrame]' started.
+Test Case '-[PracticeRecorderTests.TimingTests testOneTickEarlierInputRequiresOneMoreTrimmedFrame]' passed (0.003 seconds).
+Test Case '-[PracticeRecorderTests.TimingTests testPositiveOffsetExcludesPreStartCaptureAudio]' started.
+Test Case '-[PracticeRecorderTests.TimingTests testPositiveOffsetExcludesPreStartCaptureAudio]' passed (0.004 seconds).
+Test Suite 'TimingTests' passed at 2026-10-29 14:02:34.799.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.014 (0.014) seconds
+Test Suite 'WriterTests' started at 2026-10-29 14:02:34.799.
+Test Case '-[PracticeRecorderTests.WriterTests testArmingStopAndDuplicateStopFinishOnlyOnce]' started.
+Test Case '-[PracticeRecorderTests.WriterTests testArmingStopAndDuplicateStopFinishOnlyOnce]' passed (0.000 seconds).
+Test Case '-[PracticeRecorderTests.WriterTests testAudioMissingArmingTimeout]' started.
+Test Case '-[PracticeRecorderTests.WriterTests testAudioMissingArmingTimeout]' passed (3.018 seconds).
+Test Case '-[PracticeRecorderTests.WriterTests testAutomaticSyncKeepsCommonPTSInsteadOfZeroingEachStream]' started.
+Test Case '-[PracticeRecorderTests.WriterTests testAutomaticSyncKeepsCommonPTSInsteadOfZeroingEachStream]' passed (0.376 seconds).
+Test Case '-[PracticeRecorderTests.WriterTests testInvalidInputRateAndUnwritableDestinationNeverClaimSaved]' started.
+Test Case '-[PracticeRecorderTests.WriterTests testInvalidInputRateAndUnwritableDestinationNeverClaimSaved]' passed (0.003 seconds).
+Test Case '-[PracticeRecorderTests.WriterTests testOffsetActualTrackPresentationStarts]' started.
+Test Case '-[PracticeRecorderTests.WriterTests testOffsetActualTrackPresentationStarts]' passed (0.487 seconds).
+Test Case '-[PracticeRecorderTests.WriterTests testShortHardwareHEVCAACFileAndIdempotentStop]' started.
+Test Case '-[PracticeRecorderTests.WriterTests testShortHardwareHEVCAACFileAndIdempotentStop]' passed (0.434 seconds).
+Test Case '-[PracticeRecorderTests.WriterTests testSparseMediaBoundaryAt300Seconds]' started.
+Test Case '-[PracticeRecorderTests.WriterTests testSparseMediaBoundaryAt300Seconds]' passed (0.272 seconds).
+Test Suite 'WriterTests' passed at 2026-10-29 14:02:39.393.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 4.592 (4.593) seconds
+Test Suite 'PracticeRecorderPackageTests.xctest' passed at 2026-10-29 14:02:39.393.
+	 Executed 50 tests, with 0 failures (0 unexpected) in 10.749 (10.757) seconds
+Test Suite 'All tests' passed at 2026-10-29 14:02:39.393.
+	 Executed 50 tests, with 0 failures (0 unexpected) in 10.749 (10.758) seconds
+REAL SELECTED AUDIO Ch11/12: AudioStreamBasicDescription(mSampleRate: 48000.0, mFormatID: 1819304813, mFormatFlags: 9, mBytesPerPacket: 8, mFramesPerPacket: 1, mBytesPerFrame: 8, mChannelsPerFrame: 2, mBitsPerChannel: 32, mReserved: 0), PTS CMTime(value: 7515951769, timescale: 48000, flags: __C.CMTimeFlags(rawValue: 3), epoch: 0)
+REAL CAPTURE: 48000 Hz / 20 ch / 32 bit / flags 41; 1280×720 / 30.000 fps
+REAL VIDEO PTS CMTime(value: 4697468885, timescale: 30000, flags: __C.CMTimeFlags(rawValue: 3), epoch: 0)
+REAL RECONFIGURE: HP HD Camera 48000 Hz / 20 ch / 32 bit / flags 41; 1280×720 / 30.000 fps
+REAL RECONFIGURE: ‎MacBook Proのカメラ 48000 Hz / 20 ch / 32 bit / flags 41; 1920×1080 / 30.000 fps
+REAL RECONFIGURE: HP HD Camera 48000 Hz / 20 ch / 32 bit / flags 41; 1280×720 / 30.000 fps
+HARDWARE HEVC/AAC SYNTHETIC: /var/folders/l2/fl54zpqn0h52frtq4vglk4c80000gn/T/PracticeRecorder-tests-7FC06FCE-A06E-4283-9806-16244A28278A/guitar/2026/10/.recording-6049411A-9915-4918-A23C-47B254B4C587.partial.mp4 duration=1.216
+SPARSE 300s HARDWARE BOUNDARY: /var/folders/l2/fl54zpqn0h52frtq4vglk4c80000gn/T/PracticeRecorder-tests-70E8A6A8-6516-4D8B-811E-08B9CB15AC17/guitar/2026/10/.recording-18363747-4B25-4479-8937-7347B7CE3A08.partial.mp4 duration=300.0
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

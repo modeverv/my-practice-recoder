@@ -1,0 +1,15 @@
+[0/1] Planning build
+Building for production...
+[0/7] Write sources
+[4/7] Write swift-version--58304C5D6DBC2206.txt
+[6/8] Compiling PracticeRecorderCore FileNaming.swift
+[7/9] Compiling PracticeRecorderMedia CapturePipeline.swift
+[8/11] Compiling PracticeRecorderCheck Check.swift
+[8/12] Write Objects.LinkFileList
+[9/12] Linking PracticeRecorderCheck
+[11/12] Compiling PracticeRecorderApp PracticeRecorderApp.swift
+[11/13] Write Objects.LinkFileList
+[12/13] Linking PracticeRecorder
+Build complete! (6.92s)
+/Users/seijiro/Sync/sync_work/by-llms/my-practice-recorder/build/Practice Recorder.app: replacing existing signature
+Built: /Users/seijiro/Sync/sync_work/by-llms/my-practice-recorder/build/Practice Recorder.app

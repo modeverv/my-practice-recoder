@@ -1,0 +1,10 @@
+v1.1.0 local GUI verification, 2026-10-29 JST
+Launch: original camera selection preserved (HD Webcam eMeet C960), RME Fireface UCX II input11/12.
+Ready label: 自動同期（共通PTS）適用済み・追加補正0ms
+Cmd-R: recording; input/instrument/settings disabled, auto0ms label unchanged during recording.
+Cmd-R stop: normal saved filename guitar-2026-10-29-140413-00m29s-9a17e54c.mp4
+Settings: automaticPTS is default selection; manual-only offset controls hidden; physical-latency limitation displayed.
+Apply: capture reconfigured and automatic sync label restored, waiting state, no automatic next take.
+NSWorkspace icon(forFile: actual bundle) returned expected new icon, saved as bundle-icon.png.
+Only Practice Recorder camera permission refreshed OFF->ON after ad-hoc re-sign, then system Quit and Reopen.
+CoreAudio before/after snapshots identical. No audio device/TotalMix settings written.

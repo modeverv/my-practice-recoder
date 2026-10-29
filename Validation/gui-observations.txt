@@ -1,0 +1,20 @@
+2026-10-29 JST, local computer-use observations (screenshots intentionally not copied to repository)
+App: build/Practice Recorder.app, bundle jp.local.PracticeRecorder
+User selected MacBook Pro camera. Applied RME Fireface UCX II L=11/R=12.
+Reopened built .app: same camera/device/LR/1080p30/guitar restored. No automatic recording.
+Preview displayed camera image maintaining aspect ratio; selected L/R meters responded.
+Manual button start: REC elapsed increased; settings/instrument disabled. Stop returned saved message.
+Saved: guitar-2026-10-29-133233-00m13s-63a449a2.mp4
+Command-R started second take. Window minimized around first ~10 sec and remained minimized until after finish.
+At 13:38:01: completed guitar-2026-10-29-133249-05m00s-55f5b21c.mp4 existed; recording partial absent.
+App sleep assertion present at elapsed 4:48, absent after completion.
+Restored app: waiting state, saved filename shown, record button enabled, no next recording.
+QuickTime opened manual take, playback action invoked and rendered video observed.
+QuickTime inspector: 1920x1080, HEVC, MPEG-4 AAC, 48000Hz, 3.52Mbps, 5.5MB.
+Audio audible content and clap sync were not measured by agent. Actual audio decoded with nonzero RMS; see output logs.
+Final build after 42 passing tests: camera permission ON was stale after ad-hoc re-signing.
+Updated only Practice Recorder camera permission OFF->ON, used system Quit and Reopen. Microphone already authorized; other apps unchanged.
+Final app reached ready, preview/audio meters active, same saved device selections restored.
+Started third take, then Cmd-Q while recording around 01:00.
+Saved guitar-2026-10-29-134454-01m02s-c012be01-interrupted.mp4; app exited, no lingering app sleep assertion, no partial.
+Final restart verified: waiting / 00:00 / ready; RME L Ch11 R Ch12 restored, MacBook camera1080p30, selected meters active. No automatic recording.

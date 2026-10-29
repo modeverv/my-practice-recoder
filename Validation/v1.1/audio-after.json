@@ -1,0 +1,26 @@
+[
+  {
+    "bufferFrames" : 320,
+    "defaultInput" : true,
+    "defaultOutput" : false,
+    "name" : "SOUNDPEATS Space",
+    "sampleRate" : 16000,
+    "uid" : "B0-F0-0C-52-C7-3B:input"
+  },
+  {
+    "bufferFrames" : 512,
+    "defaultInput" : false,
+    "defaultOutput" : true,
+    "name" : "SOUNDPEATS Space",
+    "sampleRate" : 44100,
+    "uid" : "B0-F0-0C-52-C7-3B:output"
+  },
+  {
+    "bufferFrames" : 512,
+    "defaultInput" : false,
+    "defaultOutput" : false,
+    "name" : "Fireface UCX II (24100500)",
+    "sampleRate" : 48000,
+    "uid" : "RMEUSBDevice-130-24100500"
+  }
+]

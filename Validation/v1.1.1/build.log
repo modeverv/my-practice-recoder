@@ -1,0 +1,11 @@
+Rendered original camera/REC/waveform icon: /Users/seijiro/Sync/sync_work/by-llms/my-practice-recorder/AppResources/PracticeRecorder.png
+[0/1] Planning build
+Building for production...
+[0/4] Write sources
+[1/4] Write swift-version--58304C5D6DBC2206.txt
+[3/4] Compiling PracticeRecorderApp PracticeRecorderApp.swift
+[3/5] Write Objects.LinkFileList
+[4/5] Linking PracticeRecorder
+Build complete! (2.82s)
+/Users/seijiro/Sync/sync_work/by-llms/my-practice-recorder/build/Practice Recorder.app: replacing existing signature
+Built: /Users/seijiro/Sync/sync_work/by-llms/my-practice-recorder/build/Practice Recorder.app

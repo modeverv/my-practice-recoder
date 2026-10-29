@@ -1,0 +1,5 @@
+duration=12.568145833333332
+track=vide start=0.0 end=12.535 codec=["68766331"]
+dimensions=(1920.0, 1080.0) nominalFPS=29.996012
+track=soun start=0.0 end=12.568145833333332 codec=["61616320"]
+decodedAudio samples=1206542 RMS=0.007110887386388707 peak=0.101932324

@@ -1,0 +1,47 @@
+[0/1] Planning build
+Building for debugging...
+[0/9] Write sources
+[3/9] Write swift-version--58304C5D6DBC2206.txt
+[5/12] Emitting module PracticeRecorderMedia
+[6/12] Compiling PracticeRecorderMedia CapturePipeline.swift
+[7/12] Compiling PracticeRecorderMedia PCMExtractor.swift
+[8/19] Emitting module PracticeRecorderCheck
+[8/20] Write Objects.LinkFileList
+[9/20] Linking PracticeRecorderCheck
+[11/20] Emitting module PracticeRecorderTests
+[12/20] Compiling PracticeRecorderTests CaptureTests.swift
+[13/20] Compiling PracticeRecorderTests AudioExtractionTests.swift
+[13/20] Applying PracticeRecorderCheck
+[14/20] Write Objects.LinkFileList
+[16/20] Compiling PracticeRecorderApp RecordingController.swift
+[17/20] Emitting module PracticeRecorderApp
+[17/21] Write Objects.LinkFileList
+[18/21] Linking PracticeRecorderPackageTests
+[19/21] Linking PracticeRecorder
+[20/21] Applying PracticeRecorder
+Build complete! (2.46s)
+Test Suite 'Selected tests' started at 2026-10-29 13:41:13.192.
+Test Suite 'PracticeRecorderPackageTests.xctest' started at 2026-10-29 13:41:13.193.
+Test Suite 'CaptureTests' started at 2026-10-29 13:41:13.193.
+Test Case '-[PracticeRecorderTests.CaptureTests testHardwareCaptureSelectedRME1112]' started.
+Test Case '-[PracticeRecorderTests.CaptureTests testHardwareCaptureSelectedRME1112]' passed (0.761 seconds).
+Test Case '-[PracticeRecorderTests.CaptureTests testHardwareReconfigureRejectsOldOutputCallbacks]' started.
+Test Case '-[PracticeRecorderTests.CaptureTests testHardwareReconfigureRejectsOldOutputCallbacks]' passed (4.646 seconds).
+Test Case '-[PracticeRecorderTests.CaptureTests testMissingCameraDoesNotFallback]' started.
+Test Case '-[PracticeRecorderTests.CaptureTests testMissingCameraDoesNotFallback]' passed (0.017 seconds).
+Test Suite 'CaptureTests' passed at 2026-10-29 13:41:18.617.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 5.423 (5.424) seconds
+Test Suite 'PracticeRecorderPackageTests.xctest' passed at 2026-10-29 13:41:18.617.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 5.423 (5.424) seconds
+Test Suite 'Selected tests' passed at 2026-10-29 13:41:18.617.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 5.423 (5.425) seconds
+REAL SELECTED AUDIO Ch11/12: AudioStreamBasicDescription(mSampleRate: 48000.0, mFormatID: 1819304813, mFormatFlags: 9, mBytesPerPacket: 8, mFramesPerPacket: 1, mBytesPerFrame: 8, mChannelsPerFrame: 2, mBitsPerChannel: 32, mReserved: 0), PTS CMTime(value: 7454729971, timescale: 48000, flags: __C.CMTimeFlags(rawValue: 3), epoch: 0)
+REAL CAPTURE: 48000 Hz / 20 ch / 32 bit / flags 41; 1280×720 / 30.000 fps
+REAL VIDEO PTS CMTime(value: 4659204946, timescale: 30000, flags: __C.CMTimeFlags(rawValue: 3), epoch: 0)
+REAL RECONFIGURE: HP HD Camera 48000 Hz / 20 ch / 32 bit / flags 41; 1280×720 / 30.000 fps
+REAL RECONFIGURE: ‎MacBook Proのカメラ 48000 Hz / 20 ch / 32 bit / flags 41; 1920×1080 / 30.000 fps
+REAL RECONFIGURE: HP HD Camera 48000 Hz / 20 ch / 32 bit / flags 41; 1280×720 / 30.000 fps
+◇ Test run started.
+↳ Testing Library Version: 1902
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

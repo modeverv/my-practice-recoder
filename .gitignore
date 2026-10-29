@@ -1,0 +1,13 @@
+# Reproducible build products
+.build/
+build/
+
+# Local workspace and macOS metadata
+.orca/
+.swiftpm/xcode/xcuserdata/
+*.xcuserstate
+.DS_Store
+
+# Local recordings; intentional test fixtures can be added explicitly
+*.mp4
+*.mov

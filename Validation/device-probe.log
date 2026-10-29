@@ -1,0 +1,20 @@
+Camera permission: 3; microphone permission: 3 (0=notDetermined, 2=denied, 3=authorized)
+DEVICE vide name=Syphon Zero Copy Camera uid=39E62DD8-C36C-4495-9928-872C6B7B597A
+DEVICE vide name=‎MacBook Proのカメラ uid=6C707041-05AC-0010-0006-000000000001
+DEVICE vide name=UniCamEx uid=939BF83F-40E8-45D5-9B20-8FBDF536D1A1
+DEVICE vide name=OBS Virtual Camera uid=7626645E-4425-469E-9D8B-97E0FA59AC75
+DEVICE vide name=CameraGraph uid=EF94E501-C2FB-47A6-8F20-2146C05569CD
+DEVICE vide name=HP HD Camera uid=0x2242100004ca7089
+DEVICE soun name=DTM uid=~:AMS2_Aggregate:0
+DEVICE soun name=5.1ch uid=~:AMS2_Aggregate:1
+DEVICE soun name=BlackHole 2ch uid=BlackHole2ch_UID
+DEVICE soun name=MacBook Proのマイク uid=BuiltInMicrophoneDevice
+DEVICE soun name=Fireface UCX II (24100500) uid=RMEUSBDevice-130-24100500
+DEVICE soun name=Discrete4 USB uid=com.antelope.23e5a27020114000.Discrete4 USB
+DEVICE soun name=CalDigit Thunderbolt 3 Audio uid=AppleUSBAudioEngine:CalDigit, Inc.:CalDigit Thunderbolt 3 Audio:21200000:2
+DEVICE soun name=SOUNDPEATS Space uid=B0-F0-0C-52-C7-3B:input
+inputs=2 outputs=2
+running=true connections=2
+ACTUAL AUDIO ASBD: AudioStreamBasicDescription(mSampleRate: 48000.0, mFormatID: 1819304813, mFormatFlags: 41, mBytesPerPacket: 4, mFramesPerPacket: 1, mBytesPerFrame: 4, mChannelsPerFrame: 20, mBitsPerChannel: 32, mReserved: 0)
+ACTUAL VIDEO: CMVideoDimensions(width: 1280, height: 720) PTS=CMTime(value: 4623873678, timescale: 30000, flags: __C.CMTimeFlags(rawValue: 3), epoch: 0)
+Probe finished; received audio=true video=true
